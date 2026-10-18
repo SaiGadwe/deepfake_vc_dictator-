@@ -1,0 +1,55 @@
+{
+  "eer": 0.0,
+  "eer_percentage": "0.00%",
+  "optimal_threshold": 0.9909,
+  "roc_auc": 1.0,
+  "operational_threshold": 0.65,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "false_alarm_rate_far": 0.0,
+  "miss_rate_frr": 0.0,
+  "total_evaluation_samples": 60,
+  "top_features": [
+    {
+      "feature": "mfcc_1_mean",
+      "importance": 0.737
+    },
+    {
+      "feature": "mfcc_3_mean",
+      "importance": 0.2181
+    },
+    {
+      "feature": "mfcc_9_mean",
+      "importance": 0.0449
+    },
+    {
+      "feature": "zcr_mean",
+      "importance": 0.0
+    },
+    {
+      "feature": "rms_loudness_mean",
+      "importance": 0.0
+    },
+    {
+      "feature": "spectral_flatness_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "peak_to_rms_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature": "rms_loudness_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "zcr_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "spectral_centroid_skew",
+      "importance": 0.0
+    }
+  ]
+}
